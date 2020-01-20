@@ -1,0 +1,5 @@
+py manage.py createsuperuser
+
+username : salahtobok
+email : salahtobok1@gmail.com
+password : 7560

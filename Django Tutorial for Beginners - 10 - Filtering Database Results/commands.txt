@@ -1,0 +1,11 @@
+exit()
+
+def __str__(self): toString in java
+
+from music.models import Album,Song
+
+Album.objects.all()
+
+Album.objects.filter(id=1)
+
+Album.objects.filter(artist_startswith='Taylor')

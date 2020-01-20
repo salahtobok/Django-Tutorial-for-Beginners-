@@ -1,0 +1,4 @@
+album1.song_set.all()
+album1.song_set.create(song_title='I love meat',file_type='mp3')
+song = album1.song_set.create(song_title='I love meat',file_type='mp3')
+album1.song_set.count()

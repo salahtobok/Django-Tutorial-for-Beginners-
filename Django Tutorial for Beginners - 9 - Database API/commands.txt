@@ -1,0 +1,20 @@
+py manage.py shell
+
+from music.models import Album, Song
+Album.objects.all()
+
+a = Album(artist="Tylor Swift",album_title="red",genre="Country",album_logo="")
+a.save()
+
+a.album_title
+a.id
+
+b = Album()
+b.artist="Myth"
+b.album_title = "High School
+b.genre = "Punk"
+b.album_logo = ""
+b.save()
+a.artist
+b.artist
+b.album_title

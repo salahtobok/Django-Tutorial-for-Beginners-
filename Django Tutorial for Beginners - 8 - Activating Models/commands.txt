@@ -1,0 +1,3 @@
+py manage.py makemigrations music
+py manage.py sqlmigrate music 0001
+py manage.py migrate

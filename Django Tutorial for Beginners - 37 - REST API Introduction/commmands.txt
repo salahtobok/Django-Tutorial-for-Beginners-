@@ -1,0 +1,8 @@
+pip install djangorestframework
+py manage.py makemigrations
+py manage.py migrate
+
+py manage.py createsuperuser
+username = root
+password = root
+email address = root@gmail.com
